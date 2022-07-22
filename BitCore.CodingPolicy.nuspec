@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>BitCore.CodingPolicy</id>
+        <version>0.0.10</version>
+        <description>BitCore Coding Policy</description>
+        <authors>TG</authors>
+
+        <!-- 
+            Do not include the coding policy as dependency for projects
+            Use it only during development
+        -->
+        <developmentDependency>true</developmentDependency>
+
+        <!-- Analyzer -->
+        <dependencies>
+            <dependency id="Microsoft.CodeAnalysis.NetAnalyzers" version="6.0.0" />
+            <dependency id="SonarAnalyzer.CSharp" version="8.38.0.46746" />
+            <dependency id="StyleCop.Analyzers" version="1.2.0-beta.406" />
+            <dependency id="IDisposableAnalyzers" version="4.0.2" />
+        </dependencies>
+    </metadata>
+
+    <files>
+        <!-- Potential path issue with create the package inside the linux agent so set every file explicitly -->
+        <file src="build\BitCore.CodingPolicy.targets" target="build"/>
+        <file src="build\BitCore.ruleset" target="build"/>
+        <file src="build\stylecop.json" target="build"/>
+    </files>
+</package>
