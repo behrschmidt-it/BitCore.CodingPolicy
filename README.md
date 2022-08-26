@@ -4,7 +4,7 @@
 
 The BitCore.Coding policy is a collection of naming and coding rules for the C# programming language. The rules are based on the [C# Coding Conventions]("https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions") and the [C# identifier naming rules and conventions]("https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names").
 
-The rules does only respect `.cs` files. Code analyzer for another files containing C# code aren't supported right now.
+The rules only respect `.cs` files. Code analyzer for other files than .cs code aren't supported right now.
 
 ## Analyzer
 
