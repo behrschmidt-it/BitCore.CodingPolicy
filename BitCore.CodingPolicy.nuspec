@@ -10,9 +10,10 @@
 		<description>The BitCore.Coding policy is a collection of naming and coding rules for the C# programming language.</description>
 		<copyright>Behrschmidt IT</copyright>
 		<repository type="git" url="https://github.com/behrschmidt-it/BitCore.CodingPolicy" branch="main"/>
-		<icon>.\BehrschmidtIT_Logo.jpg</icon>
-		<readme>.\README.md</readme>
-		<language>en-001</language>
+		<icon>.\images\BehrschmidtIT_Logo96x128.png</icon>
+		<readme>.\docs\README.md</readme>
+		<license type="expression">MIT</license>
+		<language>en</language>
 		<projectUrl>https://github.com/behrschmidt-it/BitCore.CodingPolicy</projectUrl>
 		<tags>coding;policy;c#;analyzer;conventions;</tags>
 		<releaseNotes>Initial release</releaseNotes>
@@ -38,5 +39,7 @@
 		<file src="build\BitCore.ruleset" target="build" />
 		<file src="build\stylecop.json" target="build" />
 		<file src=".\README.md" target="docs\" />
+		<file src=".\LICENSE" target="docs\" />
+		<file src=".\BehrschmidtIT_Logo96x128.png" target="images\" />
 	</files>
 </package>
