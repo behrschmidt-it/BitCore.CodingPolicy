@@ -380,8 +380,7 @@
     <Rule Id="SX1309S" Action="Warning" />
   </Rules>
 
-  <Rules AnalyzerId="Microsoft.CodeAnalysis.CSharp" RuleNamespace="Microsoft.CodeAnalysis.CSharp">
-  </Rules>
+  <Rules AnalyzerId="Microsoft.CodeAnalysis.CSharp" RuleNamespace="Microsoft.CodeAnalysis.CSharp"></Rules>
 
   <Rules AnalyzerId="Microsoft.CodeQuality.Analyzers" RuleNamespace="Microsoft.CodeQuality.Analyzers">
     <!-- CA1024 Could conflict with S2365 - Propreties should not copy collections. Tells you Properties that copy collections should be a method GetX(). -->
@@ -427,5 +426,5 @@
     <Rule Id="IDISP013" Action="Info" /> <!-- Await in Using -->
     <Rule Id="IDISP014" Action="Info" /> <!-- Use a single instance of HttpClient: Could be improved in the future -> HttpClientFactory -->
   </Rules>
-  
+
 </RuleSet>
